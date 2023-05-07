@@ -129,14 +129,21 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #E5E7EB;
     color: white;
     padding: 20px 300px;
     gap: 20px;
 }
 
+.quote h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
 .quote h2 {
     align-self: flex-end;
+    color: black;
 }
 
 .action {
@@ -154,6 +161,7 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
+    border-radius: 16px;
 }
 
 .button-container button {
@@ -164,4 +172,18 @@ nav {
     border: 1px solid white;
 }
 
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.copyright {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
 
