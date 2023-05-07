@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+nav {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.header-logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+.header-links {
+    margin-left: auto;
+}
+.header-links ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+
+.header-links ul li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 20px 300px;
+    gap: 100px;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    gap: 10px;
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    align-self: flex-start;
+    color: white;
+}
+
+.image-container img {
+    width: 400px;
+    height: 230px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 300px;
+    gap: 20px;
+    height: 500px;
+}
+
+.information h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.quote {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    padding: 20px 300px;
+    gap: 20px;
+}
+
+.quote h2 {
+    align-self: flex-end;
+}
+
+.action {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button-container button {
+    padding:5px 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
